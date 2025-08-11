@@ -64,9 +64,9 @@ My experience spans **SOC operations, threat detection, incident response, VAPT,
 
 | Project | MITRE ATT&CK ID | Description |
 |---------|----------------|-------------|
-| [**Brute Force Attack Detection with Success Correlation**](./Project-2_Brute-Force-Detection) | `T1110` | Detects multiple failed logins followed by a successful login, indicating possible credential compromise. Implemented with raw logs & CIM Authentication data model; triggers notable events in real time. |
-| [**RDP Lateral Movement Detection**](./Project-3_RDP-Lateral-Movement) | `T1021.001` | Identifies same-user RDP logins to multiple hosts within 5 minutes (Logon Type 10), a post-compromise lateral movement technique. |
-| [**Successful Firewall Connection from Blacklisted IP (TI-based)**](./Project-4_Blacklisted-IP-Firewall) |`T1071.001` `T1071.002` `T1105` | Alerts on inbound firewall connections from known malicious IPs, enriched via AbuseIPDB, Cisco Talos, and VirusTotal. |
+| [**Brute Force Attack Detection with Success Correlation**](splunk-soc-projects/Project-2_Brute-Force-Detection) | `T1110` | Detects multiple failed logins followed by a successful login, indicating possible credential compromise. Implemented with raw logs & CIM Authentication data model; triggers notable events in real time. |
+| [**RDP Lateral Movement Detection**](splunk-soc-projects/Project-3_RDP-Lateral-Movement) | `T1021.001` | Identifies same-user RDP logins to multiple hosts within 5 minutes (Logon Type 10), a post-compromise lateral movement technique. |
+| [**Successful Firewall Connection from Blacklisted IP (TI-based)**](splunk-soc-projects/Project-4_Blacklisted-IP-Firewall) |`T1071.001` `T1071.002` `T1105` | Alerts on inbound firewall connections from known malicious IPs, enriched via AbuseIPDB, Cisco Talos, and VirusTotal. |
 
 ---
 
